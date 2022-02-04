@@ -12,7 +12,7 @@ RSpec.describe 'Creating a book', type: :feature do
     visit books_path
 
 
-    expect(page).to have_content('harry potter')
+    expect(page).to have_content('harry potter', 'JK', '100', '2022-02-09')
   end
 end
 
